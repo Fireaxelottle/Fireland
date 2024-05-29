@@ -1,0 +1,67 @@
+/* navbar */
+nav {
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+li {
+    margin: 0 5px;
+}
+
+nav ul li h1 {
+    font-size: xx-large;
+}
+
+
+
+.btn-primary {
+    background-color: blue;
+}
+
+
+button p {
+    font-size: medium;
+    font-weight: 700;
+}
+
+input {
+    width: 25vw;
+    font-size: large;
+    background: transparent;
+     padding: 2px;
+     border-radius: 20px;
+
+}
+
+/* li templates */
+.btn-li {
+    margin-left: auto;
+}
+
+.image-li {
+    margin: 0 8% 0 3%;
+}
+
+.input-li {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+
+    padding: 5px 30px;
+}
+
+.heading-li {
+    margin: 0 0 0 10%;
+}
