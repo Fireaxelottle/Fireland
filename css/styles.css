@@ -105,7 +105,7 @@ main {
     display: grid;
     grid-template-columns: 20vh auto 18vw;
     padding: 2% 2% 0 10%;
-    column-gap: 2.5rem;
+    column-gap: 3.5rem;
 }
 
 /* LEFT */
@@ -114,6 +114,7 @@ main {
     height: max-content;
     position: sticky;
     width: max-content;
+    top: var(--sticky-top-left);
 }
 
 .left .side-bar {
@@ -212,7 +213,7 @@ main {
 }
 
 /* MIDDLE */
-
+   
 .stories {
     display: flex;
     justify-content: space-between;
@@ -272,4 +273,52 @@ main {
     width: 25rem;
     padding: 0 10%;
     background: none;
+}
+
+/* Feeds */
+
+.feeds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feed {
+    background-color: var(--color-white);
+    margin:3% 0 ;
+    padding: 2% 2%;
+    border-radius: var(--card-border-radius);
+    width: 80%;
+}
+
+.feed-profile {
+   display: grid; 
+  grid-template-columns: 4rem auto 3rem;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.action-btn {
+    padding: 3% 5%;
+    font-size: large;
+    color: var(--color-black);
+    
+}
+
+.liked {
+    display: grid;
+    grid-template-columns:20% auto ;
+    align-items: center;
+    margin: 0 3%;
+}
+
+
+.liked-img .profile-img{
+   width: 1.5rem;
+   height: 1.5rem;
+   
+}
+
+.coments {
+    margin: 0 3%;
 }
