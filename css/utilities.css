@@ -8,12 +8,11 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root {
-    --color-dark: hsl(252, 30%, 17%);
-}
+
 
 body {
     color: var(--color-dark);
+    background-color: var(--color-light);
 }
 
 .profile-img {
@@ -55,6 +54,14 @@ i {
     color: mediumslateblue;
 }
 
-.bolded-dark{
+.bolded{
     font-weight: 600;
+}
+
+.small {
+    font-size: small;
+}
+
+.feed-img {
+    width: 100%;
 }
